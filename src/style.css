@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 1rem;
+  font-family: system-ui, sans-serif;
+  color: black;
+  background-color: white;
+}
+
+.user-card {
+  border: 5px solid lightblue;
+  border-radius: 12px;
+  margin-bottom: 1rem;
+  padding: 1rem;
+}
+
+button {
+  margin-right: 1rem;
+  background-color: lightblue;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  width: 5rem;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+button:active {
+  opacity: 0.5;
+}
+
+h1 {
+  font-weight: 800;
+  font-size: 1.5rem;
+}
+
+img {
+  border-radius: 50%;
+  width: 100px;
+}
+
+.liked {
+  background-color: pink;
+}
